@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 83fb7cfc6969a2240ad0866c06d0742f
+timeCreated: 1682057293
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Arial Narrow
+  fontNames:
+  - Arial Narrow
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 58a97a9262b79df4d93f141c4e9fbb5d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
