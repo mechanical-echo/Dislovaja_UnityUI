@@ -16,7 +16,10 @@ public class ChangeCharacter : MonoBehaviour {
 
     public GameObject image_object;
     public Sprite[] character_images;
-
+    void Start ()
+    {
+        HordeBG.SetActive (false);
+    }
     public void human_image()
     {
         image_object.GetComponent<Image>().sprite = character_images[0];
