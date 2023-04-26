@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class ChangeCharacter : MonoBehaviour {
 
+    public GameObject HordeBG;
+
     public GameObject human;
     public GameObject orc;
     public GameObject dwarf;
@@ -18,26 +20,32 @@ public class ChangeCharacter : MonoBehaviour {
     public void human_image()
     {
         image_object.GetComponent<Image>().sprite = character_images[0];
+        HordeBG.SetActive(false);
     }
     public void dwarf_image()
     {
         image_object.GetComponent<Image>().sprite = character_images[1];
+        HordeBG.SetActive(false);
     }
     public void night_elf_image()
     {
         image_object.GetComponent<Image>().sprite = character_images[2];
+        HordeBG.SetActive(false);
     }
     public void orc_image()
     {
         image_object.GetComponent<Image>().sprite = character_images[3];
+        HordeBG.SetActive(true);
     }
     public void undead_image()
     {
         image_object.GetComponent<Image>().sprite = character_images[4];
+        HordeBG.SetActive(true);
     }
     public void tauren_image()
     {
         image_object.GetComponent<Image>().sprite = character_images[5];
+        HordeBG.SetActive(true);
     }
 
 }
