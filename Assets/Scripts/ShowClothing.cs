@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class ShowClothing : MonoBehaviour {
 
+    /*
+     * FOR TOGGLE BUTTONS AND THEIR IMAGES
+     */
     public GameObject button;
     public GameObject image;
 
@@ -17,4 +20,5 @@ public class ShowClothing : MonoBehaviour {
         button.GetComponent<Toggle>().isOn = false;
         image.SetActive(false);
     }
+   
 }
