@@ -9,5 +9,5 @@ TODO
 - [x] Change background along with characters
 - [x] Size sliders
 - [ ] Find all the clothing for each character and each class
-
+- [ ] Make 'hide all' and 'show all' buttons
 ![WoW Logo](Assets/Images/World_of_Warcraft_logo.png)
