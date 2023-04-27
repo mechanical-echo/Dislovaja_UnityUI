@@ -16,10 +16,28 @@ public class ChangeCharacter : MonoBehaviour {
 
     public GameObject image_object;
     public Sprite[] character_images;
+
+    public GameObject width_slider;
+    public GameObject height_slider;
+
     void Start ()
     {
         HordeBG.SetActive (false);
     }
+
+    public void ChangeWidth()
+    {
+        float sizeBefore = width_slider.GetComponent<Slider>().value;
+        float heightBefore = image_object.transform.localScale.y;
+        image_object.transform.localScale = new Vector2(3.5f * sizeBefore, heightBefore);
+    }
+    public void ChangeHeight()
+    {
+        float sizeBefore = height_slider.GetComponent<Slider>().value;
+        float widthBefore = image_object.transform.localScale.x;
+        image_object.transform.localScale = new Vector2(widthBefore, 3.5f * sizeBefore);
+    }
+
     public void human_image()
     {
         image_object.GetComponent<Image>().sprite = character_images[0];
