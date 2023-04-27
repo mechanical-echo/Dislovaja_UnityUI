@@ -10,4 +10,4 @@ TODO
 - [x] Size sliders
 - [ ] Find all the clothing for each character and each class
 
-![WoW Logo](World_of_Warcraft_logo.png)
+![WoW Logo](Assets/Images/World_of_Warcraft_logo.png)
