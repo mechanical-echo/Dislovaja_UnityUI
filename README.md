@@ -1,6 +1,6 @@
 # PD-unity-character-customization
 ### Apraksts
-Šajā projektā jūs varat izvēlēties varoņa rasi un klasi no datorspeles "World Of Wracraft" un pēc tām apģerbt to
+Šajā projektā jūs varat izvēlēties varoņa rasi un klasi no datorspeles "World Of Warcraft" un pēc tām apģerbt to
 ## TODO
 - [x] Toggle group
 - [x] Input fields
