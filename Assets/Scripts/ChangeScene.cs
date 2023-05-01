@@ -4,7 +4,7 @@ public class ChangeScene : MonoBehaviour
 {
     public void GoToStart()
     {
-        SceneManager.LoadScene("Sakums", LoadSceneMode.Single);
+        SceneManager.LoadScene(0, LoadSceneMode.Single);
     }
 
     public void GoToCharacters()
