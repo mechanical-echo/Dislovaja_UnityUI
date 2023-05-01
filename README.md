@@ -5,7 +5,7 @@
 - [x] Toggle group
 - [x] Input fields
 - [x] Class choice dropdown
-- [ ] Start menu
+- [x] Start menu
 - [x] Change background along with characters
 - [x] Size sliders
 - [x] Find all the clothing for each character and each class
